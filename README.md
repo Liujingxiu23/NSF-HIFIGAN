@@ -8,29 +8,29 @@ For more information on NSF models, please visit
 https://nii-yamagishilab.github.io/samples-nsf/
 
 
-Folder structure
-----------------
-| - DATA: folder to store data
-|
-| - cyc-noise-nsf-4: cyclic-noise hn-sinc-NSF
-|
-| - hn-nsf: harmonic-plus-noise NSF
-|
-| - hn-sinc-nsf-9: harmonic-plus-noise NSF with trainable sinc filter
-|
-| - hn-sinc-nsf-10: hn-sinc-nsf-9 with the BLSTM in condition module replaced by CNNs
-|
-| - hn-sinc-nsf-hifigan: hn-sinc-nsf 9 + hifi-gan discriminator 
+## Folder structure
+
+    | - DATA: folder to store data
+    |
+    | - cyc-noise-nsf-4: cyclic-noise hn-sinc-NSF
+    |
+    | - hn-nsf: harmonic-plus-noise NSF
+    |
+    | - hn-sinc-nsf-9: harmonic-plus-noise NSF with trainable sinc filter
+    |
+    | - hn-sinc-nsf-10: hn-sinc-nsf-9 with the BLSTM in condition module replaced by CNNs
+    |
+    | - hn-sinc-nsf-hifigan: hn-sinc-nsf 9 + hifi-gan discriminator 
 
 Usuage
 ------
-# choose one project
+## choose one project
 cd hn-nsf 
 
-# setup the dependency and PYTHONPATH
+## setup the dependency and PYTHONPATH
 source ../../../env.sh 
 
-# run script
+## run script
 bash 00_demo.sh
 
 
